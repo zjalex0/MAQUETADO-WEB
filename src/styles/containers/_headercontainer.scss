@@ -1,0 +1,78 @@
+.headercontainer__main{
+    text-align: center;
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.headercontainer__main-content {
+    width: 70vw;
+}
+
+.headercontainer__nav{
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@media only  screen and (max-width: 900px) {  
+    .headercontainer__nav{
+    flex-direction: column;
+    }  
+}
+@media only  screen and (min-width: 900px) {  
+    .headercontainer__nav{
+    flex-direction: row;
+}  
+}
+.headercontainer__nav li a{
+    text-decoration: none !important;
+}
+.headercontainer__nav li{
+    float: left;
+    transition-duration: 0.5s;
+    &:hover a {
+        background-color: #444444;
+        border-radius: 10px;
+        color: white !important;
+        cursor: pointer;
+    }
+}
+
+.headercontainer__nav li a{
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444444;
+}
+.headercontainer__Logo-img{
+    width: 180px;
+    height: 50px;
+}
+
+.headercontainer__card-title{
+    font-size: 2.5rem;
+}
+.headercontainer__card-text{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.headercontainer__btnScss{
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+.headercontainer__title{
+    font-style: oblique;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

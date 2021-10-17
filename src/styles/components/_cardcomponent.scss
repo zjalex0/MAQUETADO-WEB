@@ -1,0 +1,16 @@
+.cardcomponent__card-img{
+    height: 260px;
+    width: 100%;
+    cursor: pointer;
+    &:hover{
+        filter: blur(2px);;
+    }
+}
+
+.cardcomponent__card-title{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    color: white;
+    
+}

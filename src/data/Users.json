@@ -1,0 +1,14 @@
+[
+    {
+        "uid": "62e187982790c735913e",
+        "name": "alejandro",
+        "email": "alejandro@gmail.com",
+        "password": "123456"
+    },
+    {
+        "uid": "2790c73591362e18798e",
+        "name": "prueba",
+        "email": "prueba@gmail.com",
+        "password": "654321"
+    }
+]
